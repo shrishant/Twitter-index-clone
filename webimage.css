@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix{
+    overflow:hidden;
+}
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    width:1347px;
+
+}
+.blue-part{
+    width:50%;
+    background-color:#1da1f2;
+    float:left;
+    color:white;
+}
+.blue-part::before {
+    content: "";
+    position: absolute;
+    /* background-size: cover; */
+    overflow: hidden;
+    width: 96%;
+    height: 119.7%;
+    z-index: 0;
+    background-image: url(./twittebird.png);
+    filter: contrast(75%);
+    top: -172px;
+    left: 3px;
+    
+  }
+.white-part{
+    width:50%;
+    float:left;
+    background-color:white;
+    filter:opacity(100%);
+}
+.main-blue-part{
+    box-sizing: border-box;
+    min-width:357px;
+    margin: 215px 158px 212px 164px;
+    filter:opacity(100%);
+}
+.main-blue-part > div{
+    font-size:19px;
+    font-weight:bolder;
+    line-height: 40px;
+    margin-bottom: 32px;
+    
+}
+.main-blue-part div i{
+    font-size:31px;
+}
+.main-white-part{
+    box-sizing: border-box;
+    min-width:352px;
+    margin:158px 166px 160px 166px;
+}
+.main-white-part div i{
+    font-size: 47px;
+    color: #1da1f2;
+    float:left;
+}
+.main-white-part h3{
+    margin-top: 15px;
+    margin-left: -4px;
+    font-size: 27px;
+    width: 88%;
+}
+/* .twitterImg{
+    width: 1142px;
+    height: 1000px;
+    top: -184px;
+    left: 104px;
+    position: absolute;
+    filter: grayscale(100%);
+    z-index: 0;
+} */
+.main-white-part h5{
+    margin-top:46px;
+    font-size:18px;
+    margin-left: -5px;
+}
+.login-button{
+    float: right;
+    width: 62px;
+    height: 42px;
+    margin-top: 2px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    background-color: white;
+}
+.Signup-button{
+    margin-top: 17px;
+    margin-left: -4px;
+    border-radius: 20px;
+    background-color: #1da1f2;
+    color: white;
+    width: 351px;
+    height: 34px;
+    font-size: 15px;
+}
+.login-button-long{
+    margin-top:15px;
+    background-color:white;
+    color:#1da1f2;
+}
+.footer{
+    list-style-type: none;
+    color:gray;
+    display: flex;
+    width: 82.766%;
+    font-size: 13px;
+    line-height: 48px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color:white;
+    filter:opacity(80%);
+}
